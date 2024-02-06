@@ -51,15 +51,6 @@
     width: 20%
 }
 
-.alineacion-cubos{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	align-content: center;
-}
-
 ul.acorh,
 ul.acorh * {
 margin: 0;
@@ -116,4 +107,51 @@ transition: .3s all ease-in;
 ul.acorh li a:hover {
 background: #666;
 color: #fff;
+}
+
+.padre-cards{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+.logo{
+    width: 250px;
+    height: 250px;
+    border: green;
+    border-radius: 5%;
+}
+
+.card-title{
+    font-size: 35px;
+    text-align: center;
+    color:black;
+    font-family: 'bodoni FLF';
+}
+
+.card{
+    background-color: white;
+    text-align: center;
+    color:black;
+    border-radius: 5%;
+    padding-top: 1.6%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%;
+}
+
+.btn-primary{
+    text-align: center;
+    color:black;
+    font-family: 'bodoni FLF';
+}
+
+.btn{
+    text-align: center;
+    color:black;
+    font-family: 'bodoni FLF';
 }
