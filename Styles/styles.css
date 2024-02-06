@@ -1,0 +1,60 @@
+
+.cuerpo{
+    background-color: #fdd9e3;
+}
+
+.titulo1{
+    background-color: #fdd9e3;
+    color:black;
+    font-family: 'bodoni FLF';
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.titulo2{
+    background-color: #fdd9e3;
+    color:black;
+    font-family: 'bodoni FLF';
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.titulo3{
+    background: white;
+    color:black;
+    font-family: 'bodoni FLF';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+
+}
+
+.cubo-producto{
+    background: white;
+    color:black;
+    font-family: 'bodoni FLF';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.alineacion-cubos{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+}
