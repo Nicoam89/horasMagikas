@@ -115,14 +115,15 @@ color: #fff;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
-        align-items: center;
-        align-content: center;
+        align-items: baseline;
+        align-content: space-evenly;
+        border-width: 5px;
+        border-color: #000;
     }
 
 .logo{
     width: 250px;
     height: 250px;
-    border: green;
     border-radius: 5%;
 }
 
@@ -154,4 +155,13 @@ color: #fff;
     text-align: center;
     color:black;
     font-family: 'bodoni FLF';
+}
+
+.acorh{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: stretch;
+	align-content: center;
 }
