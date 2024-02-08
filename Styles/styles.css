@@ -1,6 +1,7 @@
 
 .cuerpo{
     background-color: #fdd9e3;
+    
 }
 
 .titulo1{
@@ -113,14 +114,14 @@ color: #fff;
 .padre-cards{
         
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: baseline;
-        align-content: space-evenly;
+	    flex-direction: row;
+	    flex-wrap: wrap;
+	    justify-content: space-around;
+	    align-items: center;
+	    align-content: center;
         border-width: 5px;
         border-color: #000;
-        
+        max-width: 1500px;
     }
 
 .logo{
@@ -147,6 +148,7 @@ color: #fff;
     padding-bottom: 1%;
     margin-bottom: 3%; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
 }
 
 .btn-primary{
