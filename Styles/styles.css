@@ -173,3 +173,11 @@ color: #fff;
 	align-items: stretch;
 	align-content: center;
 }
+
+.carousel-item img {
+    max-height: 300px; /* Altura máxima de las imágenes */
+    object-fit: cover; /* Ajustar la imagen dentro del contenedor */
+  }
+
+
+

@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horas Magikas - Aromas para tu bienestar</title>
     <link rel="stylesheet" href="Styles/styles.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="./script.js"></script>
 </head>
 <header class="titulo1">
@@ -12,15 +15,42 @@
 </header>
 <body class="cuerpo">
     <H2 class="titulo2">Aromas para tu bienestar</H2>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Carrusel/Carrusel1.JPG" class="d-block w-100" alt="Imagen 1">
+        </div>
+        <div class="carousel-item">
+          <img src="Carrusel/Carrusel2.JPG" class="d-block w-100" alt="Imagen 2">
+        </div>
+        <div class="carousel-item">
+          <img src="Carrusel/Carrusel3.JPG" class="d-block w-100" alt="Imagen 3">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+    
     <div><h2 class="titulo3 alineacion-cubos">Productos</h2>
     </div>
-    <div class="padre-cards">
+        <div class="padre-cards">
       
       <div class="card" style="width: 18rem;">
           <img class="logo"  src="./Logo.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Saumerios</h5>
-            <p class="card-text">Saumerios Saumerios Saumerios Saumerios Saumerios Saumerios Saumerios Saumerios Saumerios .</p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident quo facere labore corporis, necessitatibus optio soluta eos consectetur consequuntur omnis eligendi maiores, perspiciatis, doloremque qui explicabo ipsa repellendus dolorum. Impedit?</p>
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
@@ -29,7 +59,7 @@
           <img class="logo" src="./Logo.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Velas</h5>
-            <p class="card-text">Velas Velas Velas Velas Velas Velas Velas Velas Velas Velas Velas Velas Velas Velas Velas.</p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio voluptate iste vitae? Culpa facilis possimus maiores, expedita quas quibusdam nostrum voluptatem eius ducimus commodi officiis facere odio ipsam exercitationem aliquid?</p>
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
@@ -38,7 +68,7 @@
           <img class="logo" src="./Logo.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Fragancias</h5>
-            <p class="card-text">Fragancias Fragancias Fragancias Fragancias Fragancias Fragancias Fragancias Fragancias.</p>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi quaerat ab, voluptates molestiae maxime nam facere officia earum quis minima enim dolor labore reprehenderit odit soluta ex assumenda quia amet?</p>
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
@@ -47,39 +77,39 @@
           <img class="logo" src="./Logo.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Hornitos</h5>
-            <p class="card-text">Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos .</p>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dignissimos, soluta numquam fugiat laboriosam laborum autem pariatur blanditiis ipsa eaque, vitae fuga sint beatae nostrum cumque corporis excepturi in omnis.</p>
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img class="logo" src="./Logo.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Hornitos</h5>
-            <p class="card-text">Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos .</p>
+            <h5 class="card-title">Porta Saumerios</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, blanditiis vero? Voluptates consectetur, dicta fugiat numquam vero quaerat quod nostrum, doloremque placeat recusandae porro incidunt, libero accusantium dignissimos sint eum.</p>
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img class="logo" src="./Logo.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Hornitos</h5>
-            <p class="card-text">Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos .</p>
+            <h5 class="card-title">Kits Aromaterapia</h5>
+            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad accusantium iste dolores amet. Dolores eos assumenda ad soluta voluptatum facere, adipisci et sunt doloremque quod accusantium veniam architecto amet voluptate.</p>
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img class="logo" src="./Logo.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Hornitos</h5>
-            <p class="card-text">Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos .</p>
+            <h5 class="card-title">Saumadores</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, consequatur dolorum perferendis fugiat ad nam voluptatibus, minus recusandae at, tenetur aliquid doloremque autem illo labore temporibus eligendi et sequi eius.</p>
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img class="logo" src="./Logo.png" class="card-img-top" alt="...">
           <div class="card-body">
-            <h5 class="card-title">Hornitos</h5>
-            <p class="card-text">Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos Hornitos .</p>
+            <h5 class="card-title">Otros</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis tempore veritatis, dignissimos, deserunt soluta vel adipisci magni sunt laboriosam assumenda deleniti. Dolorum deserunt eaque iure aliquam autem? Nam, veniam in?</p>
             <a href="#" class="btn btn-primary">Comprar</a>
           </div>
         </div>
@@ -95,8 +125,8 @@
         <ul>
           <li><a href="mailto:horas.magikas@gmail.com">Mail</a></li>
           <li><a >Telefono: +54-9 (011) 2499-6568 </a></li>
-          <li><a href="https://www.instagram.com/horas.magikas/">Instagram</a></li>
-          <li><a href="https://www.facebook.com/profile.php?id=61553759608536&mibextid=9R9pXO">Facebook</a></li>
+          <li><a href="https://www.instagram.com/horas.magikas/" target="_blank">Instagram</a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61553759608536&mibextid=9R9pXO" target="_blank">Facebook</a></li>
           <li><a href="URL12">TickTok</a></li>
         </ul>
       </li>
