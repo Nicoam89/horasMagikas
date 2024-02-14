@@ -4,11 +4,11 @@
     
 }
 
-.titulo1{
+.titulo-principal{
     background-color: #fdd9e3;
     color:black;
     font-family: 'bodoni FLF';
-    font-size: 40px;
+    font-size: 120px;
     padding-top: 10px;
     padding-bottom: 1px;
     padding-left: 30px;
@@ -16,11 +16,11 @@
     text-align: center;
 }
 
-.titulo2{
+.titulo-segundo{
     background-color: #fdd9e3;
     color:black;
     font-family: 'bodoni FLF';
-    font-size: 30px;
+    font-size: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -28,10 +28,11 @@
     text-align: center;
 }
 
-.titulo3{
+.titulo-tercero{
     background: white;
     color:black;
     font-family: 'bodoni FLF';
+    font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
@@ -77,7 +78,7 @@ background: white;
 font-family: 'bodoni FLF';
 color: black;
 border-bottom: 1px solid #000;
-border-top: 1px solid #666666;
+border-top: 1px solid #f7bff8;
 text-decoration: none;
 box-sizing: border-box;
 }
@@ -107,7 +108,7 @@ max-height: 300px;
 transition: .3s all ease-in;
 }
 ul.acorh li a:hover {
-background: #666;
+background: #f7bff8;
 color: #fff;
 }
 
@@ -137,7 +138,7 @@ color: #fff;
     font-family: 'bodoni FLF';
 }
 
-.card{
+.cardHM{
     background-color: white;
     text-align: center;
     color:black;
@@ -175,8 +176,8 @@ color: #fff;
 }
 
 .carousel-item img {
-    max-height: 300px; /* Altura máxima de las imágenes */
-    object-fit: cover; /* Ajustar la imagen dentro del contenedor */
+    max-height: 400px; 
+    object-fit: cover;
   }
 
 
