@@ -1,8 +1,13 @@
 
+/* Formato base del cuerpo */
+
 .cuerpo{
     background-color: #fdd9e3;
     width: 1600px;
 }
+
+
+/* Formato Titulo Principal */
 
 .titulo-principal{
     background-color: #fdd9e3;
@@ -16,6 +21,8 @@
     text-align: center;
 }
 
+/* Formato de subtitulos */
+
 .titulo-segundo{
     background-color: #fdd9e3;
     color:black;
@@ -27,6 +34,8 @@
     padding-right: 30px;
     text-align: center;
 }
+
+/* Formato subtitulos de segundo nivel */
 
 .titulo-tercero{
     background: white;
@@ -41,6 +50,8 @@
     margin-top: 2%;
     margin-bottom: 2%;
 }
+
+/* Formato de Acordion */
 
 ul.acorh,
 ul.acorh * {
@@ -100,6 +111,8 @@ background: #f7bff8;
 color: #fff;
 }
 
+/* Formato base de tarjetas de productos */
+
 .padre-cards{
         
         display: flex;
@@ -111,11 +124,16 @@ color: #fff;
         max-width: 1480px;
     }
 
+/* Formato logo */
+
 .logo{
     width: 250px;
     height: 250px;
     border-radius: 5%;
 }
+
+
+/* Formato Titulo Tarjeta */
 
 .card-title{
     font-size: 35px;
@@ -123,6 +141,9 @@ color: #fff;
     color:black;
     font-family: 'bodoni FLF';
 }
+
+
+/* Formato tarjeta Producto */
 
 .tarjeta-producto{
     background-color: white;
@@ -141,6 +162,8 @@ color: #fff;
     
 }
 
+/* Formato boton */
+
 .btn-primary{
     text-align: center;
     color:black;
@@ -152,6 +175,9 @@ color: #fff;
     color:black;
     font-family: 'bodoni FLF';
 }
+
+
+/*Formato acordion*/
 
 .acorh{
 	
