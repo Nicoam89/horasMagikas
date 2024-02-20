@@ -6,13 +6,24 @@
     width: 1600px;
 }
 
+/* Fuente */
+
+@font-face {
+    font-family: 'Tan Nimbus';
+    src: url('/Fonts/TAN_Nimbus/TAN-NIMBUS.otf')  format('woff2'),
+         url('/Fonts/TAN_Nimbus/TAN-NIMBUS.otf') format('woff'); 
+  
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* Formato Titulo Principal */
 
 .titulo-principal{
     background-color: #fdd9e3;
     color:black;
-    font-family: 'bodoni FLF';
+    font-family: 'Tan Nimbus';
     font-size: 120px;
     padding-top: 10px;
     padding-bottom: 1px;
@@ -26,7 +37,7 @@
 .titulo-segundo{
     background-color: #fdd9e3;
     color:black;
-    font-family: 'bodoni FLF';
+    font-family: 'Tan Nimbus';
     font-size: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -40,7 +51,7 @@
 .titulo-tercero{
     background: white;
     color:black;
-    font-family: 'bodoni FLF';
+    font-family: 'Tan Nimbus';
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -68,13 +79,13 @@ font-size: 18px;
 }
 ul.acorh li {
 list-style: none;
-font-family: 'bodoni FLF';
+font-family: 'Tan Nimbus';
 }
 ul.acorh li a {
 display: block;
 padding: 10px 10px 10px 20px;
 background: white;
-font-family: 'bodoni FLF';
+font-family: 'Tan Nimbus';
 color: black;
 border-bottom: 1px solid #000;
 border-top: 1px solid #f7bff8;
@@ -92,7 +103,7 @@ transition: .3s all ease-in;
 ul.acorh li li a {
 padding: 10px 10px 10px 40px;
 background: #fdd9e3;
-font-family: 'bodoni FLF';
+font-family: 'Tan Nimbus';
 color: #000;
 font-size: 16px;
 border: 0;
@@ -139,7 +150,7 @@ color: #fff;
     font-size: 35px;
     text-align: center;
     color:black;
-    font-family: 'bodoni FLF';
+    font-family: 'Tan Nimbus';
 }
 
 
@@ -162,18 +173,40 @@ color: #fff;
 
 }
 
-/* Formato boton */
+
+.card-text{
+    font-family: 'Tan Nimbus';
+    font-size:14px;
+}
+
+/* Formato botones */
 
 .btn-primary{
     text-align: center;
     color:black;
-    font-family: 'bodoni FLF';
+    font-family: 'Tan Nimbus';
 }
 
 .btn{
     text-align: center;
     color:black;
-    font-family: 'bodoni FLF';
+    font-family: 'Tan Nimbus';
+}
+
+
+#checkout-btn{
+    text-align: center;
+    color:black;
+    font-family: 'Tan Nimbus';
+}
+
+/*Formato carrito*/
+
+.Carrito{
+    text-align: center;
+    color:black;
+    font-family: 'Tan Nimbus';
+
 }
 
 
