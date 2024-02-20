@@ -175,8 +175,8 @@ color: #fff;
 
 
 .card-text{
-    font-family: 'Tan Nimbus';
-    font-size:14px;
+    font-family: 'Uni Sans';
+    font-size:16px;
 }
 
 /* Formato botones */
@@ -204,6 +204,7 @@ color: #fff;
 
 .Carrito{
     text-align: center;
+    padding-top: 2%;
     color:black;
     font-family: 'Tan Nimbus';
 
