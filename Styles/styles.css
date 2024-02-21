@@ -225,8 +225,8 @@ color: #fff;
 }
 
 .carousel-item img {
-    max-height: 400px; 
-    object-fit: cover;
+    max-height: 350px; 
+    object-fit: contain;
   }
 
 
