@@ -2,7 +2,7 @@
 /* Formato base del cuerpo */
 
 .cuerpo{
-    background-color: #FDD8E3;
+    background-color: white;
     width: 1550px;
 }
 
@@ -163,7 +163,7 @@ color: #fff;
 /* Formato tarjeta Producto */
 
 .tarjeta-producto{
-    background-color: white;
+    background-color: #fdd9e3;
     text-align: center;
     color:black;
     border-radius: 3%;
