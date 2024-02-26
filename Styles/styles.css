@@ -3,7 +3,7 @@
 
 .cuerpo{
     background-color: #FDD8E3;
-    width: 1600px;
+    width: 1550px;
 }
 
 /* Fuente */
@@ -232,7 +232,7 @@ color: #fff;
 
 .carousel-item img {
     max-height: 350px; 
-    object-fit: contain;
+    object-fit: fill;
   }
 
 
