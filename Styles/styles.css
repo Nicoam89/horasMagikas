@@ -2,7 +2,7 @@
 /* Formato base del cuerpo */
 
 .cuerpo{
-    background-color: #fdd9e3;
+    background-color: #FDD8E3;
     width: 1600px;
 }
 
@@ -32,13 +32,18 @@
     text-align: center;
 }
 
+.banner{
+    object-fit: fill;
+    width: 1550px;
+}
+
 /* Formato de subtitulos */
 
 .titulo-segundo{
     background-color: #fdd9e3;
     color:black;
     font-family: 'Tan Nimbus';
-    font-size: 40px;
+    font-size: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
