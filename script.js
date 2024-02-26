@@ -49,3 +49,25 @@ products.forEach(product => {
     addButton.addEventListener('click', () => addToCart(product));
     document.body.appendChild(addButton);
 });
+
+
+//Menu desplegable
+
+document.addEventListener('DOMContentLoaded', function() {
+    var btn = document.querySelector('.menu-btn');
+    var menu = document.querySelector('.menu');
+  
+    btn.addEventListener('click', function() {
+      if (menu.style.display === 'block') {
+        menu.style.display = 'none';
+      } else {
+        menu.style.display = 'block';
+      }
+    });
+  
+    document.addEventListener('click', function(event) {
+      if (!menu.contains(event.target) && event.target !== btn) {
+        menu.style.display = 'none';
+      }
+    });
+  });
