@@ -4,7 +4,6 @@
 .cuerpo{
     background-color: white;
     width: 1550px;
-    
 }
 
 /* Fuente */
@@ -17,6 +16,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Uni Sans';
+    src: url('/Fonts/uni-sans/UniSansThin.otf')  format('woff2'),
+         url('/Fonts/uni-sans/UniSansThin.otf') format('woff'); 
+  
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 
 /* Formato Titulo Principal */
@@ -43,7 +52,7 @@
 .titulo-segundo{
     background-color: #fdd9e3;
     color:black;
-    font-family: 'Tan Nimbus';
+    font-family: 'Uni Sans';
     font-size: 35px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -57,7 +66,7 @@
 .titulo-tercero{
     background: white;
     color:black;
-    font-family: 'Tan Nimbus';
+    font-family: 'Uni Sans';
     font-size: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -81,6 +90,7 @@
     color: #fff;
     border: none;
     cursor: pointer;
+    font-family: 'Uni Sans';
   }
   
   .menu {
@@ -93,6 +103,8 @@
     margin: 0;
     list-style-type: none;
     display: none;
+    font-family: 'Uni Sans';
+    
   }
   
   .menu li {
@@ -101,69 +113,76 @@
   
   .menu li:hover {
     background-color: #f0f0f0;
+    
   }
-
-
 
 
 /* Formato de Acordion */
 
 ul.acorh,
 ul.acorh * {
-margin: 0;
-padding: 0;
-border: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
+
 ul.acorh {
-margin: 10px auto;
-padding: 0;
-list-style: none;
-width: 100%;
-font-size: 18px;
+    margin: 10px auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    font-size: 18px;
 }
+
 ul.acorh li {
-list-style: none;
-font-family: 'Tan Nimbus';
+    list-style: none;
+    font-family: 'Uni Sans';
 }
+
 ul.acorh li a {
-display: block;
-padding: 10px 10px 10px 20px;
-background: white;
-font-family: 'Tan Nimbus';
-color: black;
-border-bottom: 1px solid #000;
-border-top: 1px solid #f7bff8;
-text-decoration: none;
-box-sizing: border-box;
+    display: block;
+    padding: 10px 10px 10px 20px;
+    background: white;
+    font-family: 'Uni Sans';
+    color: black;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #f7bff8;
+    text-decoration: none;
+    box-sizing: border-box;
 }
+
 ul.acorh li ul {
-max-height: 0;
-margin: 0;
-padding: 0;
-list-style: none;
-overflow: hidden;
-transition: .3s all ease-in;
+    max-height: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    transition: .3s all ease-in;
 }
+
 ul.acorh li li a {
-padding: 10px 10px 10px 40px;
-background: #fdd9e3;
-font-family: 'Tan Nimbus';
-color: #000;
-font-size: 16px;
-border: 0;
-border-bottom: 1px solid #fdd9e3;
-box-sizing: border-box;
+    padding: 10px 10px 10px 40px;
+    background: #fdd9e3;
+    font-family: 'Uni Sans';
+    color: #000;
+    font-size: 16px;
+    border: 0;
+    border-bottom: 1px solid #fdd9e3;
+    box-sizing: border-box;
 }
+
 ul.acorc li li:last-child a {
-border-bottom: 0;
+    border-bottom: 0;
 }
+
 ul.acorh li:hover ul {
-max-height: 300px;
-transition: .3s all ease-in;
+    max-height: 300px;
+    transition: .3s all ease-in;
 }
+
 ul.acorh li a:hover {
-background: #f7bff8;
-color: #fff;
+    background: #f7bff8;
+    color: #fff;
 }
 
 /* Formato base de tarjetas de productos */
@@ -251,7 +270,7 @@ color: #fff;
     text-align: center;
     padding-top: 2%;
     color:black;
-    font-family: 'Tan Nimbus';
+    font-family: 'Uni Sans';
 
 }
 
@@ -268,6 +287,8 @@ color: #fff;
 	align-items: stretch;
 	align-content: center;
 }
+
+/*Items Carrusel*/
 
 .carousel-item img {
     max-height: 350px; 
